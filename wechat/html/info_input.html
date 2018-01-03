@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="pixel-ratio-3 retina android android-5 android-5-0">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+		<title></title>
+		<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+		<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.css">
+		<link rel="stylesheet" href="../css/wechat.css">
+	</head>
+	<body>
+		
+		<header class="wechat-header">
+			<a class="icon-back"><i class="fa fa-chevron-left"></i></a>
+      		<h1>填写内容</h1>
+		</header>
+		
+		<div class="wechat-content">
+		   <div class="weui-cells__title">手机号验证</div>
+	        <div class="weui-cells weui-cells_form">
+	        	<div class="weui-cell">
+	                <div class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+	                    <img src="images/pic_160.png" style="width: 50px;display: block">
+	                    <span class="weui-badge" style="position: absolute;top: -.4em;right: -.4em;">8</span>
+	                </div>
+	                <div class="weui-cell__bd">
+	                    <p>联系人名称</p>
+	                    <p style="font-size: 13px;color: #888888;">摘要信息</p>
+	                </div>
+	            </div>
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><label class="weui-label">qq</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入qq号"/>
+	                </div>
+	            </div>
+	            <div class="weui-cell weui-cell_vcode">
+	                <div class="weui-cell__hd">
+	                    <label class="weui-label">手机号</label>
+	                </div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="tel" placeholder="请输入手机号"/>
+	                </div>
+	                <div class="weui-cell__ft">
+	                    <button class="weui-vcode-btn">获取验证码</button>
+	                </div>
+	            </div>
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><label for="" class="weui-label">日期</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="date" value=""/>
+	                </div>
+	            </div>
+	            <div class="weui-cell">
+	                <div class="weui-cell__hd"><label for="" class="weui-label">时间</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="datetime-local" value="" placeholder=""/>
+	                </div>
+	            </div>
+	            <div class="weui-cell weui-cell_vcode">
+	                <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+	                <div class="weui-cell__bd">
+	                    <input class="weui-input" type="number" placeholder="请输入验证码"/>
+	                </div>
+	                <div class="weui-cell__ft">
+	                    <img class="weui-vcode-img" src="./images/vcode.jpg" />
+	                </div>
+	            </div>
+	        </div>
+	        <div class="weui-btn-area">
+	            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+	        </div>
+		    
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="../js/wechat-base.js"></script>
+</html>
